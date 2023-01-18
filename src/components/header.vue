@@ -28,6 +28,7 @@ export default {
 <style lang="sass">
 @import "../_style"
 .header
+    background-color: rgba($white, .5) 
     z-index: 50
     position: fixed
     inset: 0
@@ -52,9 +53,13 @@ export default {
         a
             font-weight: 600
 .menu
-    &__list
-        display: flex
-        gap: 21px
-        flex: 1 1 auto
-        flex-wrap: wrap
+  &__list
+    display: flex
+    gap: 21px
+    flex: 1 1 auto
+    flex-wrap: wrap
+  &__link
+    transition: .5s
+    &:hover
+      color: $green
 </style>

@@ -4,17 +4,14 @@
     <main class="main">
       <app-intro />
       <app-services />
+      <app-statistics/>
     </main>
     <footer>footer</footer>
   </div>
 </template>
 <script>
-import appHeader from "@/components/header.vue";
-import appIntro from "@/components/intro.vue";
-import appServices from "@/components/services.vue";
 
 export default {
-  components: { appHeader, appServices, appIntro },
 };
 </script>
 <style lang="sass">

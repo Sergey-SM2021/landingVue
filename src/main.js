@@ -7,10 +7,16 @@ import statistics from "./components/app-statistics.vue";
 import SectionTitle from "./components/section-title.vue";
 import AppAdvices from './components/app-advices.vue'
 import AppWhoWeAre from './components/app-who-we-are.vue'
+import AppSponsors from './components/app-sponsors.vue'
 
 const app = createApp(App);
 
-const arr = [header,AppWhoWeAre, SectionTitle, AppAdvices, intro, services, statistics];
+const arr = [
+  header, AppWhoWeAre, AppSponsors,
+  SectionTitle, AppAdvices, intro,
+  services, statistics
+];
+
 arr.forEach((component) => {
   app.component(component.name, component);
 });

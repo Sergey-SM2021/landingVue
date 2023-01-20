@@ -7,6 +7,7 @@
       <app-statistics/>
       <app-advices/>
       <app-who-we-are/>
+      <app-sponsors/>
     </main>
     <footer>footer</footer>
   </div>

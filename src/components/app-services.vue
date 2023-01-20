@@ -31,7 +31,6 @@ export default {
 @import '../_style'
 
 .services
-  background-color: rgba(#000,.05)
   &__items
     position: relative
     margin-top: -100px

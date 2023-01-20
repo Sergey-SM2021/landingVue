@@ -5,6 +5,7 @@
       <app-intro />
       <app-services />
       <app-statistics/>
+      <app-advices/>
     </main>
     <footer>footer</footer>
   </div>
@@ -29,6 +30,7 @@ body
   margin: 0
   padding: 0
   color: $gray
+  background: #FAFAFA 
 
 ul,
 li

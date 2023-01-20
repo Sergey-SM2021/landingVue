@@ -6,6 +6,7 @@
       <app-services />
       <app-statistics/>
       <app-advices/>
+      <app-who-we-are/>
     </main>
     <footer>footer</footer>
   </div>
